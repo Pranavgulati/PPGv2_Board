@@ -5626,6 +5626,12 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <text x="45.72" y="-2.54" size="1.778" layer="92">O/P will be same as I/P</text>
 <text x="-25.4" y="38.1" size="1.778" layer="92">Non-Inverting amplifier</text>
 <text x="-180.34" y="119.38" size="1.778" layer="91">Can use this for IR-INP in furture</text>
+<circle x="175.26" y="45.72" radius="35.28680625" width="0.1524" layer="91"/>
+<text x="170.18" y="71.12" size="1.778" layer="91">active LPF</text>
+<wire x1="63.5" y1="111.76" x2="88.9" y2="111.76" width="0.1524" layer="98"/>
+<wire x1="88.9" y1="111.76" x2="88.9" y2="119.38" width="0.1524" layer="98"/>
+<wire x1="88.9" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="98"/>
+<wire x1="111.76" y1="119.38" x2="111.76" y2="93.98" width="0.1524" layer="98"/>
 </plain>
 <instances>
 <instance part="U$1" gate="B" x="-68.58" y="137.16" smashed="yes" rot="MR180">
@@ -6093,6 +6099,14 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <junction x="-76.2" y="127"/>
 <pinref part="U$1" gate="B" pin="IN-"/>
 <wire x1="-78.74" y1="134.62" x2="-76.2" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<wire x1="76.2" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="83.82" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="81.28" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="81.28" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

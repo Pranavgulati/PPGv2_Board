@@ -5625,6 +5625,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <text x="17.78" y="0" size="1.778" layer="92">Voltage follower put together two separate circuits(solv loading prblm) </text>
 <text x="45.72" y="-2.54" size="1.778" layer="92">O/P will be same as I/P</text>
 <text x="-25.4" y="38.1" size="1.778" layer="92">Non-Inverting amplifier</text>
+<text x="-180.34" y="119.38" size="1.778" layer="91">Can use this for IR-INP in furture</text>
 </plain>
 <instances>
 <instance part="U$1" gate="B" x="-68.58" y="137.16" smashed="yes" rot="MR180">

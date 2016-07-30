@@ -5870,6 +5870,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <segment>
 <pinref part="PHOTO" gate="1" pin="2"/>
 <wire x1="-180.34" y1="114.3" x2="-177.8" y2="114.3" width="0.1524" layer="91"/>
+<label x="-175.26" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$12" class="0">
